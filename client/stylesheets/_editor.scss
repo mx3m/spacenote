@@ -1,0 +1,41 @@
+.editor {
+  display: flex;
+  height: calc(100% - 60px);
+}
+
+.entry-markdown,
+.entry-preview {
+  position: relative;
+  width: 50%;
+  align-items: stretch;
+  padding: 20px;
+  box-shadow: none;
+  border: none;
+}
+
+.CodeMirror {
+  font-size: 100%;
+  background-color: #373d46;
+  color: #fff!important;
+}
+
+.entry-preview-content {
+  background-color: #3a414b;
+  color: #ccd0d6;
+  font-size: 120%;
+}
+
+.floatingheader {
+  position: relative;
+  z-index: 200;
+  color: rgba(255,255,255,.3);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  .entry-word-count {
+    float: right;
+    position: relative;
+    top: 2px;
+  }
+}
+

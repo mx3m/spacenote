@@ -1,0 +1,39 @@
+.site-header {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  min-height: 60px;
+  padding: 10px 20px;
+  background-color: #30353d;
+}
+
+.site-title {
+  font-size: 100%;
+  font-weight: normal;
+  color: rgba(255,255,255,.5);
+}
+
+.site-login {
+  margin-left: auto;
+}
+
+#login-buttons {
+  .login-display-name {
+    font-family: $font-stack;
+    font-size: 80%;
+    color: rgba(255,255,255,.5);
+  }
+  .login-image {
+    display: none;
+  }
+  .text-besides-image {
+    margin: 0;
+    color: white;
+  }
+  .login-button {
+    background-color: #55acee;
+    &:hover {
+      background-color: darken(#55acee, 10%);
+    }
+  }
+}
