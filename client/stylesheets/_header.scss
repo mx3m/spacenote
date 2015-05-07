@@ -1,4 +1,4 @@
-.site-header {
+.app-header {
   display: flex;
   align-items: center;
   height: 60px;
@@ -7,14 +7,27 @@
   background-color: #30353d;
 }
 
-.site-title {
+.app-title {
+  margin-right: 20px;
   font-size: 100%;
+  text-align: center;
   font-weight: normal;
   color: rgba(255,255,255,.5);
 }
 
-.site-login {
+.app-login {
   margin-left: auto;
+}
+
+.btn {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-family: $font-stack;
+  font-size: 80%;
+  line-height: 1.5;
+  background-color: #55acee;
+  border: none;
+  color: white;
 }
 
 #login-buttons {
@@ -31,6 +44,7 @@
     color: white;
   }
   .login-button {
+    font-family: $font-stack;
     background-color: #55acee;
     &:hover {
       background-color: darken(#55acee, 10%);
